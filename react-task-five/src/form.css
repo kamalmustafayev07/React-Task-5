@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    gap:2px;
+    color:black;
+}
+
+input,select,textarea,option{
+    background-color: bisque;
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    outline:none;
+}
+
+button{
+    padding:10px;
+    background-color: tan;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(218, 198, 171);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
